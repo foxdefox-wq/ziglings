@@ -46,6 +46,7 @@ pub fn main() void {
     const const_int = 12345;
     const const_float = 987.654;
 
+    //Here, I accidently somehow deleted all my old progress so we gotta start from here, which is were I was bnefore
     print("Immutable: {}, {d:.3}; ", .{ const_int, const_float });
 
     // But something changes when we assign the exact same values
