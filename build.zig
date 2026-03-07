@@ -31,7 +31,6 @@ comptime {
             \\Please download a development ("master") build from
             \\
             \\https://ziglang.org/download/
-            \\bee toodle poppers
             \\
             \\
         ;
