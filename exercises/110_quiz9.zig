@@ -130,7 +130,7 @@ pub fn main() !void {
     PORTB = 0b0111; // reset PORTB
     print("  {b:0>4} // (reset state)\n", .{PORTB});
     print("& {b:0>4} // (bitmask)\n", .{0b1110});
-    PORTB &= ~(1 << 0); // What's missing here?
+    PORTB &= ~@as(u4, 1 << 0);
     checkAnswer(0b0110, PORTB);
 
     newline();
